@@ -1,6 +1,6 @@
 /* common shared styles */
 * {
-  font-family: "Merriweather", serif;
+  font-family: "Inter", sans-serif, "Merriweather", serif;
   margin: 0;
   padding: 0;
 }
@@ -40,6 +40,7 @@ header {
 .banner-text h3 {
   color: #fff;
   text-align: center;
+  font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -48,6 +49,116 @@ header {
 .banner-text h1 {
   color: #fff;
   text-align: center;
+  font-family: Merriweather;
   font-size: 62px;
   font-weight: 900;
+}
+
+/* main section styles */
+main section {
+  margin-top: 150px;
+}
+
+/* discount text styles */
+.discount h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.holiday-deals-text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 50px;
+  margin-bottom: 16px;
+}
+
+.all-categories-text {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+
+.new-year-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-year-img {
+  width: 800px;
+  height: 500px;
+  /* background-image: url("../resources/New\ Year\ Photo.png"); */
+}
+
+/* midnight party section styles */
+
+.midnight-party-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.party-section-container {
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  border-radius: 20px;
+}
+
+.party-text-container {
+  padding-left: 126px;
+}
+
+.party-text-container h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+
+.party-text-container p {
+  width: 690px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 30px; /* 166.667% */
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.btn-join {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 32px;
 }
