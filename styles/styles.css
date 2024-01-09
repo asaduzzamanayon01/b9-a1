@@ -1,3 +1,5 @@
+/* A.K.M. Asaduzzaman Ayon */
+
 /* common shared styles */
 * {
   font-family: "Inter", sans-serif, "Merriweather", serif;
@@ -38,7 +40,6 @@ header {
   border-radius: 16px;
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Banner\ Image.png");
-  /* margin: 50px 300px; */
 }
 
 .banner-text h3 {
@@ -169,24 +170,6 @@ main > section {
 .ball-img {
   width: 320px;
   height: 464px;
-  /* position: relative;
-  z-index: 1;
-
-  /* background: url("../resources/Group\ 70.png"); */
-  background-color: radial-gradient(
-    50% 50% at 50% 50%,
-    #690b02 27%,
-    #8f4941 39%,
-    #b18079 51%,
-    #cdada8 62%,
-    #e3d1cd 73%,
-    #f2eae7 84%,
-    #fcfaf6 93%,
-    #fffffc 100%
-  );
-  background-size: cover;
-  background-blend-mode: multiply;
-  /* mix-blend-mode: multiply; */
 }
 
 /* bonus section-1 styles */
@@ -381,6 +364,7 @@ main > section {
   bottom: 0px;
   left: 730px;
   padding-bottom: 50px;
+  cursor: pointer;
 }
 
 .gift-box {
