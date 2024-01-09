@@ -163,6 +163,29 @@ main section {
   margin-left: 32px;
 }
 
+.ball-img {
+  width: 320px;
+  height: 464px;
+  /* position: relative;
+  z-index: 1;
+
+  /* background: url("../resources/Group\ 70.png"); */
+  background-color: radial-gradient(
+    50% 50% at 50% 50%,
+    #690b02 27%,
+    #8f4941 39%,
+    #b18079 51%,
+    #cdada8 62%,
+    #e3d1cd 73%,
+    #f2eae7 84%,
+    #fcfaf6 93%,
+    #fffffc 100%
+  );
+  background-size: cover;
+  background-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
+}
+
 /* bonus section-1 styles */
 .bonus-section-container {
   display: flex;
@@ -284,4 +307,84 @@ main section {
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 160% */
+}
+
+/* holiday section styles */
+
+.holiday-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holiday-section {
+  width: 1320px;
+  height: 830px;
+  color: #fff;
+}
+
+.holiday-section-1 {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+
+.holiday-section-1-text > h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.holiday-section-1-text > h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+
+.holiday-section-1-text > p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+.holiday-section-2 {
+  width: 100%;
+  height: 80%;
+  background: url("../resources/Rectangle\ 1.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.red-bg-img {
+  width: 100%;
+  height: 230px;
+}
+
+.discount-text {
+  position: absolute;
+  bottom: 0px;
+  left: 730px;
+  padding-bottom: 50px;
+}
+
+.gift-box {
+  width: 550px;
+  height: 570px;
+  position: relative;
+  padding-top: 280px;
+  left: 100px;
+  z-index: 1;
 }
