@@ -55,7 +55,7 @@ header {
 }
 
 /* main section styles */
-main section {
+main > section {
   margin-top: 150px;
 }
 
@@ -387,4 +387,65 @@ main section {
   padding-top: 280px;
   left: 100px;
   z-index: 1;
+}
+
+/* portfolio section */
+
+.portfolio-section-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-section-container {
+  width: 1320px;
+  margin-top: 250px;
+}
+
+.portfolio-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+}
+
+.portfolio-item {
+  overflow: hidden;
+}
+
+.portfolio-grid-container > img {
+  width: 424px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.portfolio-section-text > h4 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.portfolio-section-text h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.portfolio-section-text p {
+  width: 890px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 48px;
 }
